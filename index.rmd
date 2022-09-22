@@ -1,0 +1,26 @@
+---
+title: "About Me"
+author: Stone Shi
+output: 
+  cleanrmd::html_document_clean:
+    theme: bamboo
+---
+  
+<center>
+## Hello, my name is Tong (Stone) Shi 史桐. Just call me Stone!
+</center>
+
+<i class="fas fa-address-card fa-3x"></i>
+
+I got my B.A. degree at [UCSB](https://www.ucsb.edu/) in 2022 majoring in Geography with GIS Emphasis, and a Minor in Architecture and Urban History. My hometown is [Gaobeidian, Hebei, China](https://en.wikipedia.org/wiki/Gaobeidian), a town with comfortable living quality.
+
+Currently I am working in UCSB [MesoAmerican Research Center](https://www.marc.ucsb.edu/) as the lab manager, leading Maya archaeological site mappings, geospatial model development, and land cover change tracking on the sites of El Pilar, Belize and Tikal, Guatemala.
+
+I am passionate about the philosophy of using geospatial methods to analyze social inequality and emphasize social justice under climate change or in smart city construction. Areas I have explored include changes in snowpack and melt water in Lake Tahoe, California; travel behavior for different gender groups with different status of employment; and natural resource and yield analysis in South America and Yunnan coffee-producing regions in China.
+
+Through this website, I plan to display my work done through various research projects that I completed and am taking on. If interested you may view my current work projects if I can answer any questions, feel free to reach out by [email](tongshi@ucsb.edu)
+
+
+<center>
+![](img/Profile2.jpg){width="70%"}
+</center>

@@ -1,0 +1,33 @@
+name: "Stone-website"
+output_dir: "."
+navbar:
+  title: "Stone Shi's Website"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "GIS Projects"
+      icon: fa-map
+      href: GISprojects.html
+    - text: "Research"
+      icon: fa-globe
+      href: geog183.html
+    - text: "CV/Resume"
+      icon: fa-file-alt
+      href: CV.html
+  right:
+    - text: "Github"
+      icon: fa-github
+      href: https://github.com/MycraySH
+    - text: "LinkedIn"
+      icon: fa-linkedin
+      href: www.linkedin.com/in/stoneshiucsb
+    - text: "Email"
+      icon: fa-envelope
+      href: tongshi@ucsb.edu
+
+output: 
+  html_document:
+    theme: sandstone
+    highlight: tango
+    type: inverse

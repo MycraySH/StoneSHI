@@ -1,0 +1,25 @@
+---
+title: "GIS Projects"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br><br>
+
+# <span style="color:#5d655f">Classwork.</span>
+
+In the college life I spent in UCSB Geography, I completed several projects on GIS application, remote sensing and transportation modeling. 
+
+This page is a brief view of my technical contribution on these projects.
+<br><br>
+
+### [Geography 176A: Introduction to Geographic Information Systems and Science](geog176A.html)
+<br>
+
+### [GEOG 115C: Remote Sensing of the Environment 3](geog115C.html)
+<br>
+
+### [GEOG 211A: Graduate Level Transportation Planning & Modeling](geog211A.html)
+<br>
