@@ -1,0 +1,197 @@
+---
+title: "Tong (Stone) Shi"
+---
+
+#### tongshi@ucsb.edu | https://github.com/MycraySH
+
+
+
+<i class="fas fa-user-graduate fa-1.5x"></i>
+
+### Education
+**[University of California, Santa Barbara](https://www.ucsb.edu/)**       <br>***2019-2022***
+
+College of Letters and Science
+
+B.A. in Geographical Information Science | Minor in Architecture and Urban History 
+
+GPA: 3.9/4.0
+
+Courses Taken: GIS Design and Applications, Remote Sensing of the Environment, Transportation Planning and Modeling, Geographical Data Analysis, Cartography design and Geovisualization, Urban Environment Studies, California Geography
+
+Honors: Outstanding Achievement Award in Geography Major, Dean’s Honors, High Honors in UCSB College of Letter & Science Honors Program, Gene and Susan Lucas Undergraduate Research Fund, UCSB Summer Creative Studies Scholarship
+<br><br>
+
+**[Shijiazhuang No.2 Middle School](http://www.sjzez.com/)**      <br>***2015-2018***
+
+ Deputy Director, Technology Division, SE Model United Nations
+<br><br>
+
+<i class="fas fa-briefcase fa-1.5x"></i>
+
+### Research Experience
+
+**Modeling the Milpa Cycle and Labor Density at the Tikal Site**      <br>***Oct 2021-Present***
+
+Laboratory Manager | [MesoAmerican Research Center, UCSB](https://www.marc.ucsb.edu/)
+
+Advisor: Dr. Anabel Ford, Professor
+
+- supervised an 18-person research team and subordinate groups; coordinated the work progress reporting and data cleaning among the groups and managed the laboratory equipment and database;
+
+- Led the group-wide efforts to digitize the paperwork and calculated the in Stu measurement data of the Tikal Site;
+
+- Conducted the field investigation of the rums of Mayan cities and researched the Maya People;
+
+- Accumulated the related research techniques and the first-handed data processing method;
+
+[Related Link](https:// popular-archaeology.com/ article/ modeling-ancient-may-landscapes/)
+<br><br>
+
+**Improving the Environmentally Friendly International Coffee Supply Chain**<br>***Feb 2022-Present***
+
+Research Assistant / [Baylis Research Group, UCSB&UIUC](https://baylislab.ace.illinois.edu/)
+
+Advisor: Dr.Kathy Baylis, Professor; Dr. Nicolas Gatti
+
+- Constructed multi-layer maps of Junin and Pasco province, Peru and Cundinamarca and Santander, Columbia, with administrative borders, harvested coffee area, coffee yields per hectare, and vegetation; 
+
+- Extracted land cover attunes surrounding a farmer’s geographic location;
+
+- Calculated aggregate statistcs on planted area, yield, and tree cover near the planted area (defined buffers) planned by the municipality;
+
+- Greatly improved the Bird-Friendly international Coffee Supply Chain;
+
+- Expected publishing the research result in 2023 with Dr. Nicolas Gath;
+
+[Related Link](https://dot.org/10.1016/j.footqual. 2021.104509)
+<br><br>
+**Participation in the Yunnan Coffee Flavor Map Project**      <br>***Feb 2021-Sept 2021***
+
+Geographical Data Researcher | [Torch Coffee Laboratory](https://www.torchcoffee.asia/)         
+- Collected, integrated, and visualized the geographic data and cupping results of coffee-producing areas in Yunnan
+
+- Fulfilled partial statistics and weighted scoring based on the sampling cupping results from producing areas analyzed by Torch Coffee Laboratory
+
+- Drew the map layout aesthetically and designed the booklet and webpage that were released in November 2021
+
+[Related Link](http://proce473c.pic46.websiteonline.cn/upload/fxs5.pdf)
+<br><br>
+**Simulating Flood Frequency in the United States in the Next 100 Years**      <br>***Nov 2020-Apr 2021***
+
+Undergraduate Research Assistant | [Hydro Research Group, UCSB Geography](https://www.geog.ucsb.edu/research)    
+
+Advisors: Dr. Keith Clarke, Professor; [Dr. Mike Johnson](https://mikejohnson51.github.io/)                                                         
+- Analyzed the historical streamflow in the U.S. in the past 50 years;
+
+- Generated a database for the predicting model and regression curve to predict the changing trend of floods nationwide over the next 2 to 100 years; 
+
+-Developed and finalized a data frame containing 169,776 observations specific to each USGS site, model, and recurrence interval;
+
+- Created several interactive plots and web applications using Tableau and RShiny to display data (awarded 2020 Gene and Susan Lucas Undergraduate Research Fund)
+<br><br>
+
+<i class="fas fa-chalkboard-teacher fa-1.5x"></i>
+
+### Internship Experience
+
+**[Chinese National Geography Press](https://en.wikipedia.org/wiki/Chinese_National_Geography)**      <br>***Sept 2021-Jan 2022***
+
+Content Editor Intern
+
+- Investigated the physical and human geographic features of Shanghai and Jiangsu, collected and examined typical academic literature and photographic collections; 
+
+- Complied the introductory articles of regional representative business cards and highlights such as China Youth Camp to be published in the magazine’s media channels.
+<br><br>
+**[Esri China Information Technology Co. Ltd.](https://www.geoscene.cn/)**      <br>***March 2021-Jun 2021***
+
+Trainee Technical Engineer, Product Development Center   
+
+- Conducted localization testing of ArcGIS software and participated in its updates;
+
+- Promoted and popularized the updated Chinese version with SDL Trados Studio based on the localized documents and the original version of ArcGIS; 
+
+- Edited, translated, and reviewed ArcGIS scripting and technical documents in Chinese.
+<br><br>
+**[Shanghai VIVAJIE CREATIVE Clture Communication Co., Ltd.](https://www.behance.net/vivajiecreative)**      <br>***Sept 2020-Nov 2020***
+
+Visual Design Intern
+
+- Devised the promotional posters, web visual effects, cultural and creative products, and event materials based on the requirements of the brands;
+
+- Accomplished the graphic design and typesetting of serial articles “Case Sharing” on the company’s official account to disseminate its creative image and design capabilities;
+
+- Assisted in curating the offline Harbin Beer Carnival Bazaar, designed the peripheral products of the brand activities, and presented the simulation renderings.
+<br><br>
+**Beijing Yida Times Technology Co., Ltd.**      <br>***March 2020–Aug 2020***
+
+Project Planner, Teaching and Research Assistant, UI Designer | Entrepreneurship Project 
+
+- Designed the questionnaire survey and analyzed the market data aimed at the registration status of China’s college entrance examination with the investigated groups involving high school students and their families as well as college students in a bid to determine the registration demands; 
+
+- Classified the investigated students to achieve the fast targeted retrieval of demands and the inquiry of questions;
+
+- Attracted more than 5,000 people from over 70 schools and colleges in 20 provinces to access the designed App as of Aug. 2020 since its official launch in May 2020.
+<br><br>
+
+<i class="fas fa-binoculars fa-1.5x"></i>
+
+### Extracurricular Activities
+
+**Minister of Publicity Department, [UCSB Chinese Student Association](https://www.facebook.com/csa.ucsb.1)**      <br>***Nov 2019–Mar 2022***
+
+- Led the team consisting of more than 20 students to curate the UCSB CSA 2021 summer freshmen conference in Beijing and Shanghai with over 100 newcomers attracted to attend;  
+
+- Planned the social media campaigns, offline tabling, material design, and post-event review for 2021 Halloween Night, Casino Night, and 5 Days of Fun in Chinese New Year activities;
+
+- Curated multiple campus activities for Chinese overseas students, operated CAS official account, designed the typesetting and formatting, and conducted creative design for CSA promotion with the number of followers increasing by more than 2,000.
+<br><br>
+**Volunteer, The 13th International Youth Summit on Energy and Climate Change**      <br>***Jul 2021-Aug 2021***
+
+- Designed the photos and posters, typeset the articles released on the official websites, and created virtual dynamics of the conference guests’ speeches based on the theme of climate change and carbon neutrality; 
+
+- Recorded the meeting minutes about COP15 ecological civilization construction processes, sustainable diets, and sustainable living circles;
+
+- Adjusted the variables of the online meetings in real time, and collaborated with other team members to ensure the complete success of the online closing ceremony with more than 2,000 viewers watching the live broadcast.
+<br><br>
+**Volunteer, Friends of Nature**      <br>***May 2020-Present***
+
+- Attended lecturer training on the “Leave No Trace” lifestyle to learn how to minimize the impact of human activities on the ecological balance during field or camping trips;  
+
+- Volunteered to partake in the sustainable development and wetland protection activities and practiced low-carbon concepts in the life.
+<br><br>
+**[State of the Map 2020](https://2020.stateofthemap.org/)**      <br>***Aug 2020***
+
+- Voluntary host
+<br><br>
+
+<i class="fas fa-dumbbell fa-1.5x"></i>
+
+### Skills
+
+**GIS**
+- ArcGIS Suite, QGIS, ENVI, Google Earth Pro, Mapbox
+<br><br>
+
+**Coding**
+- R, Python (ArcPy), MySQL
+<br><br>
+
+<<<<<<< HEAD
+**Others**
+- AutoCAD, Graphic Design, Inkscape, Matlab, Max8, Microsoft Office Suite, SDL Trados, Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Photography
+=======
+
+- GIS Map Analysis
+
+ - GIS in R
+ 
+ -ArcGIS
+ 
+ -Qgis
+ 
+ -ENVI
+ 
+ - Mapbox
+ 
+>>>>>>> d44b71c47ce5539e58b5c6744d3056d466cfc11d

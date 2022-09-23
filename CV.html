@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Tong (Stone) Shi</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Stone Shi's Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="GISprojects.html">
+    <span class="fa fa-map"></span>
+     
+    GIS Projects
+  </a>
+</li>
+<li>
+  <a href="geog183.html">
+    <span class="fa fa-globe"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="CV.html">
+    <span class="fa fa-file-alt"></span>
+     
+    CV/Resume
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/MycraySH">
+    <span class="fa fa-github"></span>
+     
+    Github
+  </a>
+</li>
+<li>
+  <a href="www.linkedin.com/in/stoneshiucsb">
+    <span class="fa fa-linkedin"></span>
+     
+    LinkedIn
+  </a>
+</li>
+<li>
+  <a href="tongshi@ucsb.edu">
+    <span class="fa fa-envelope"></span>
+     
+    Email
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Tong (Stone) Shi</h1>
+
+</div>
+
+
+<div id="tongshiucsb.edu-httpsgithub.commycraysh" class="section level4">
+<h4><a href="mailto:tongshi@ucsb.edu" class="email">tongshi@ucsb.edu</a> | <a href="https://github.com/MycraySH" class="uri">https://github.com/MycraySH</a></h4>
+<p><i class="fas fa-user-graduate fa-1.5x"></i></p>
+</div>
+<div id="education" class="section level3">
+<h3>Education</h3>
+<p><strong><a href="https://www.ucsb.edu/">University of California, Santa Barbara</a></strong> <br><strong><em>2019-2022</em></strong></p>
+<p>College of Letters and Science</p>
+<p>B.A. in Geographical Information Science | Minor in Architecture and Urban History</p>
+<p>GPA: 3.9/4.0</p>
+<p>Courses Taken: GIS Design and Applications, Remote Sensing of the Environment, Transportation Planning and Modeling, Geographical Data Analysis, Cartography design and Geovisualization, Urban Environment Studies, California Geography</p>
+<p>Honors: Outstanding Achievement Award in Geography Major, Dean’s Honors, High Honors in UCSB College of Letter &amp; Science Honors Program, Gene and Susan Lucas Undergraduate Research Fund, UCSB Summer Creative Studies Scholarship <br><br></p>
+<p><strong><a href="http://www.sjzez.com/">Shijiazhuang No.2 Middle School</a></strong> <br><strong><em>2015-2018</em></strong></p>
+<p>Deputy Director, Technology Division, SE Model United Nations <br><br></p>
+<p><i class="fas fa-briefcase fa-1.5x"></i></p>
+</div>
+<div id="research-experience" class="section level3">
+<h3>Research Experience</h3>
+<p><strong>Modeling the Milpa Cycle and Labor Density at the Tikal Site</strong> <br><strong><em>Oct 2021-Present</em></strong></p>
+<p>Laboratory Manager | <a href="https://www.marc.ucsb.edu/">MesoAmerican Research Center, UCSB</a></p>
+<p>Advisor: Dr. Anabel Ford, Professor</p>
+<ul>
+<li><p>supervised an 18-person research team and subordinate groups; coordinated the work progress reporting and data cleaning among the groups and managed the laboratory equipment and database;</p></li>
+<li><p>Led the group-wide efforts to digitize the paperwork and calculated the in Stu measurement data of the Tikal Site;</p></li>
+<li><p>Conducted the field investigation of the rums of Mayan cities and researched the Maya People;</p></li>
+<li><p>Accumulated the related research techniques and the first-handed data processing method;</p></li>
+</ul>
+<p><a href="https://%20popular-archaeology.com/%20article/%20modeling-ancient-may-landscapes/">Related Link</a> <br><br></p>
+<p><strong>Improving the Environmentally Friendly International Coffee Supply Chain</strong><br><strong><em>Feb 2022-Present</em></strong></p>
+<p>Research Assistant / <a href="https://baylislab.ace.illinois.edu/">Baylis Research Group, UCSB&amp;UIUC</a></p>
+<p>Advisor: Dr.Kathy Baylis, Professor; Dr. Nicolas Gatti</p>
+<ul>
+<li><p>Constructed multi-layer maps of Junin and Pasco province, Peru and Cundinamarca and Santander, Columbia, with administrative borders, harvested coffee area, coffee yields per hectare, and vegetation;</p></li>
+<li><p>Extracted land cover attunes surrounding a farmer’s geographic location;</p></li>
+<li><p>Calculated aggregate statistcs on planted area, yield, and tree cover near the planted area (defined buffers) planned by the municipality;</p></li>
+<li><p>Greatly improved the Bird-Friendly international Coffee Supply Chain;</p></li>
+<li><p>Expected publishing the research result in 2023 with Dr. Nicolas Gath;</p></li>
+</ul>
+<p><a href="https://dot.org/10.1016/j.footqual.%202021.104509">Related Link</a> <br><br> <strong>Participation in the Yunnan Coffee Flavor Map Project</strong> <br><strong><em>Feb 2021-Sept 2021</em></strong></p>
+<p>Geographical Data Researcher | <a href="https://www.torchcoffee.asia/">Torch Coffee Laboratory</a><br />
+- Collected, integrated, and visualized the geographic data and cupping results of coffee-producing areas in Yunnan</p>
+<ul>
+<li><p>Fulfilled partial statistics and weighted scoring based on the sampling cupping results from producing areas analyzed by Torch Coffee Laboratory</p></li>
+<li><p>Drew the map layout aesthetically and designed the booklet and webpage that were released in November 2021</p></li>
+</ul>
+<p><a href="http://proce473c.pic46.websiteonline.cn/upload/fxs5.pdf">Related Link</a> <br><br> <strong>Simulating Flood Frequency in the United States in the Next 100 Years</strong> <br><strong><em>Nov 2020-Apr 2021</em></strong></p>
+<p>Undergraduate Research Assistant | <a href="https://www.geog.ucsb.edu/research">Hydro Research Group, UCSB Geography</a></p>
+<p>Advisors: Dr. Keith Clarke, Professor; <a href="https://mikejohnson51.github.io/">Dr. Mike Johnson</a><br />
+- Analyzed the historical streamflow in the U.S. in the past 50 years;</p>
+<ul>
+<li>Generated a database for the predicting model and regression curve to predict the changing trend of floods nationwide over the next 2 to 100 years;</li>
+</ul>
+<p>-Developed and finalized a data frame containing 169,776 observations specific to each USGS site, model, and recurrence interval;</p>
+<ul>
+<li>Created several interactive plots and web applications using Tableau and RShiny to display data (awarded 2020 Gene and Susan Lucas Undergraduate Research Fund) <br><br></li>
+</ul>
+<p><i class="fas fa-chalkboard-teacher fa-1.5x"></i></p>
+</div>
+<div id="internship-experience" class="section level3">
+<h3>Internship Experience</h3>
+<p><strong><a href="https://en.wikipedia.org/wiki/Chinese_National_Geography">Chinese National Geography Press</a></strong> <br><strong><em>Sept 2021-Jan 2022</em></strong></p>
+<p>Content Editor Intern</p>
+<ul>
+<li><p>Investigated the physical and human geographic features of Shanghai and Jiangsu, collected and examined typical academic literature and photographic collections;</p></li>
+<li><p>Complied the introductory articles of regional representative business cards and highlights such as China Youth Camp to be published in the magazine’s media channels. <br><br> <strong><a href="https://www.geoscene.cn/">Esri China Information Technology Co. Ltd.</a></strong> <br><strong><em>March 2021-Jun 2021</em></strong></p></li>
+</ul>
+<p>Trainee Technical Engineer, Product Development Center</p>
+<ul>
+<li><p>Conducted localization testing of ArcGIS software and participated in its updates;</p></li>
+<li><p>Promoted and popularized the updated Chinese version with SDL Trados Studio based on the localized documents and the original version of ArcGIS;</p></li>
+<li><p>Edited, translated, and reviewed ArcGIS scripting and technical documents in Chinese. <br><br> <strong><a href="https://www.behance.net/vivajiecreative">Shanghai VIVAJIE CREATIVE Clture Communication Co., Ltd.</a></strong> <br><strong><em>Sept 2020-Nov 2020</em></strong></p></li>
+</ul>
+<p>Visual Design Intern</p>
+<ul>
+<li><p>Devised the promotional posters, web visual effects, cultural and creative products, and event materials based on the requirements of the brands;</p></li>
+<li><p>Accomplished the graphic design and typesetting of serial articles “Case Sharing” on the company’s official account to disseminate its creative image and design capabilities;</p></li>
+<li><p>Assisted in curating the offline Harbin Beer Carnival Bazaar, designed the peripheral products of the brand activities, and presented the simulation renderings. <br><br> <strong>Beijing Yida Times Technology Co., Ltd.</strong> <br><strong><em>March 2020–Aug 2020</em></strong></p></li>
+</ul>
+<p>Project Planner, Teaching and Research Assistant, UI Designer | Entrepreneurship Project</p>
+<ul>
+<li><p>Designed the questionnaire survey and analyzed the market data aimed at the registration status of China’s college entrance examination with the investigated groups involving high school students and their families as well as college students in a bid to determine the registration demands;</p></li>
+<li><p>Classified the investigated students to achieve the fast targeted retrieval of demands and the inquiry of questions;</p></li>
+<li><p>Attracted more than 5,000 people from over 70 schools and colleges in 20 provinces to access the designed App as of Aug. 2020 since its official launch in May 2020. <br><br></p></li>
+</ul>
+<p><i class="fas fa-binoculars fa-1.5x"></i></p>
+</div>
+<div id="extracurricular-activities" class="section level3">
+<h3>Extracurricular Activities</h3>
+<p><strong>Minister of Publicity Department, <a href="https://www.facebook.com/csa.ucsb.1">UCSB Chinese Student Association</a></strong> <br><strong><em>Nov 2019–Mar 2022</em></strong></p>
+<ul>
+<li><p>Led the team consisting of more than 20 students to curate the UCSB CSA 2021 summer freshmen conference in Beijing and Shanghai with over 100 newcomers attracted to attend;</p></li>
+<li><p>Planned the social media campaigns, offline tabling, material design, and post-event review for 2021 Halloween Night, Casino Night, and 5 Days of Fun in Chinese New Year activities;</p></li>
+<li><p>Curated multiple campus activities for Chinese overseas students, operated CAS official account, designed the typesetting and formatting, and conducted creative design for CSA promotion with the number of followers increasing by more than 2,000. <br><br> <strong>Volunteer, The 13th International Youth Summit on Energy and Climate Change</strong> <br><strong><em>Jul 2021-Aug 2021</em></strong></p></li>
+<li><p>Designed the photos and posters, typeset the articles released on the official websites, and created virtual dynamics of the conference guests’ speeches based on the theme of climate change and carbon neutrality;</p></li>
+<li><p>Recorded the meeting minutes about COP15 ecological civilization construction processes, sustainable diets, and sustainable living circles;</p></li>
+<li><p>Adjusted the variables of the online meetings in real time, and collaborated with other team members to ensure the complete success of the online closing ceremony with more than 2,000 viewers watching the live broadcast. <br><br> <strong>Volunteer, Friends of Nature</strong> <br><strong><em>May 2020-Present</em></strong></p></li>
+<li><p>Attended lecturer training on the “Leave No Trace” lifestyle to learn how to minimize the impact of human activities on the ecological balance during field or camping trips;</p></li>
+<li><p>Volunteered to partake in the sustainable development and wetland protection activities and practiced low-carbon concepts in the life. <br><br> <strong><a href="https://2020.stateofthemap.org/">State of the Map 2020</a></strong> <br><strong><em>Aug 2020</em></strong></p></li>
+<li><p>Voluntary host <br><br></p></li>
+</ul>
+<p><i class="fas fa-dumbbell fa-1.5x"></i></p>
+</div>
+<div id="skills" class="section level3">
+<h3>Skills</h3>
+<p><strong>GIS</strong> - ArcGIS Suite, QGIS, ENVI, Google Earth Pro, Mapbox <br><br></p>
+<p><strong>Coding</strong> - R, Python (ArcPy), MySQL <br><br></p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD <strong>Others</strong> - AutoCAD, Graphic Design, Inkscape, Matlab, Max8, Microsoft Office Suite, SDL Trados, Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Photography =======</p>
+<ul>
+<li><p>GIS Map Analysis</p></li>
+<li><p>GIS in R</p></li>
+</ul>
+<p>-ArcGIS</p>
+<p>-Qgis</p>
+<p>-ENVI</p>
+<ul>
+<li>Mapbox</li>
+</ul>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>d44b71c47ce5539e58b5c6744d3056d466cfc11d</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
