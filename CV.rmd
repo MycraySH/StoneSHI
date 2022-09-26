@@ -177,21 +177,20 @@ Project Planner, Teaching and Research Assistant, UI Designer | Entrepreneurship
 - R, Python (ArcPy), MySQL
 <br><br>
 
-<<<<<<< HEAD
 **Others**
 - AutoCAD, Graphic Design, Inkscape, Matlab, Max8, Microsoft Office Suite, SDL Trados, Adobe Photoshop, Adobe Illustrator, Adobe Premiere, Photography
-=======
+
 
 - GIS Map Analysis
 
  - GIS in R
  
- -ArcGIS
+ - ArcGIS
  
- -Qgis
+ - Qgis
  
- -ENVI
+ - ENVI
  
  - Mapbox
  
->>>>>>> d44b71c47ce5539e58b5c6744d3056d466cfc11d
+
