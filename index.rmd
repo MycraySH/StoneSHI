@@ -1,6 +1,5 @@
 ---
 title: "About Me"
-author: Stone Shi
 output: 
   cleanrmd::html_document_clean:
     theme: bamboo
