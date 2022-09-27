@@ -1,0 +1,19 @@
+---
+title: "Research Works"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br><br>
+
+# <span style="color:#5d655f">Milpa Cycle in Tikal.</span>
+
+<br><br>
+
+# <span style="color:#5d655f">Coffee Mapping.</span>
+
+<br><br>
+
+# <span style="color:#5d655f">Flood Interval Simulation.</span>
