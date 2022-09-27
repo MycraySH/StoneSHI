@@ -25,7 +25,7 @@ navbar:
     - text: "Email"
       icon: fa-envelope
       href: tongshi@ucsb.edu
-
+      
 output: 
   html_document:
     theme: sandstone
